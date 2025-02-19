@@ -28,7 +28,7 @@
         height: auto;              
     }
     .hero-image{
-        width: calc(100vw);
+        width: calc(99vw);
         height: calc(auto);            
     }
     .text-header{
@@ -633,7 +633,7 @@
         height: auto;        
     }
     .hero-image{
-        width: 100vw;
+        width: 99vw;
         height: auto;        
     }
     .text-header{
