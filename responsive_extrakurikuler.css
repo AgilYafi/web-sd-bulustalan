@@ -1,0 +1,76 @@
+/* --- GENERAL STYLE --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- CONTAINER UNTUK SETIAP KEGIATAN --- */
+.extracurricular-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 20px; /* Beri jarak antar elemen */
+}
+
+/* --- TEKS --- */
+.content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* --- VIDEO CONTAINER --- */
+.video-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- RESPONSIVE DESIGN UNTUK LAYAR KECIL --- */
+@media (max-width: 768px) {
+    .extracurricular-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content, .video-container {
+        max-width: 100%;
+    }
+
+    .video-container video {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}

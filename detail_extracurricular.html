@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./responsive_navbar.css">
+    <link rel="stylesheet" href="./responsive_extrakurikuler.css">
+    <link rel="stylesheet" href="./responsive_footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Detail Kegiatan</title>
+    <link rel="stylesheet" href="responsive_extrakurikuler.css"> 
+</head>
+<body>
+    <header>
+        <section class="navigation">
+            <figure class="logo">
+                <img src="image/logo/logo_sd.png" alt="logo_sd">
+            </figure>
+            <nav id="navbar" class="overlay">    
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>        
+                <div class="overlay-content">
+                    <a href="./index.html">Beranda</a>
+                    <a href="./index.html#about-us">Tentang Kami</a>
+                    <div class="subnav">
+                        <button class="subnavbtn">Kategori <img src="./image/icon/down.png"></button>
+                        <div class="subnav-content">
+                          <a href="./index.html#school-activity">Kegiatan Sekolah</a>
+                          <a href="./index.html#school-achievment">Prestasi</a>
+                          <a href="./index.html#school-extracurricular">Ekstrakulikuler</a>
+                        </div>
+                    </div> 
+                    <a href="./staff.html">Pengajar</a>
+                    <a href="./information.html">Information</a>
+                    <a href="./asset-infrastructures.html">Asset</a>
+                </div>
+                <figure class="sosmed">
+                    <a href="https://www.youtube.com/@sdnbulustalan"><img src="./image/icon/youtube.svg" alt="youtube"></a>
+                    <a href="https://www.facebook.com/sdnbulustalan/"><img src="./image/icon/facebook.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/sdnbulustalan/"><img src="./image/icon/instagram.svg" alt="instagram"></a>
+                </figure>
+            </nav>            
+            <figure class="menu">
+                <img src="./image/icon/menu.svg" alt="menu" onclick="openNav()">
+            </figure>
+        </section>   
+        <section class="extracurricular-header">
+            <h1 class="main-title">Ekstrakurikuler SDN Bulustalan</h1>
+        </section>
+        <section class="extracurricular-section">
+            <div class="content">
+                <h2 class="section-title">Video Ekstrakurikuler Pramuka</h2>
+                <p class="section-description">
+                    Pramuka di SDN Bulustalan adalah wadah bagi siswa untuk belajar kemandirian, disiplin, dan kerja sama tim melalui aktivitas seru dan mendidik.
+                     Kegiatan mencakup baris-berbaris, tali-temali, pertolongan pertama, permainan edukatif, hingga eksplorasi alam.
+                    Dengan semangat "Satyaku Kudarmakan, Darmaku Kubaktikan", Pramuka membentuk karakter siswa yang berani, peduli, dan cinta tanah air.
+                </p>
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="./videos/pramuka.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+        </section>
+
+        <!-- Pencak Silat -->
+        <section class="extracurricular-section">
+            <div class="video-container">
+                <video controls>
+                    <source src="./videos/pencaksilat.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+            <div class="content">
+                <h2 class="section-title">Video Ekstrakurikuler Pencak Silat</h2>
+                <p class="section-description">
+                    Pencak Silat di SDN Bulustalan bukan sekadar bela diri, tetapi juga seni budaya dan pembentukan karakter. 
+                    Melalui latihan rutin, siswa diajarkan ketangkasan, kedisiplinan, serta sportivitas dalam bertanding maupun kehidupan sehari-hari.
+                    Dengan kombinasi teknik serangan, pertahanan, dan ketahanan fisik, kegiatan ini melatih keberanian, ketekunan, serta rasa percaya diri. 
+                    Selain itu, Pencak Silat juga menanamkan nilai persaudaraan dan semangat pantang menyerah sesuai dengan warisan budaya Indonesia.                </p>
+            </div>
+        </section>
+
+        <!-- Atletik -->
+        <section class="extracurricular-section">
+            <div class="content">
+                <h2 class="section-title">Video Ekstrakurikuler Atletik</h2>
+                <p class="section-description">
+                    Ekstrakurikuler Atletik SDN Bulustalan adalah wadah bagi siswa untuk mengembangkan kekuatan, ketangkasan, dan daya tahan tubuh melalui berbagai cabang olahraga seperti lari, lompat.
+                    Melalui latihan rutin, siswa dilatih untuk meningkatkan kecepatan, keseimbangan, serta kerja sama tim, sekaligus menanamkan nilai sportivitas dan disiplin.                 </p>
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="./videos/atletik.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+        </section>
+
+        <!-- Rebana -->
+        <section class="extracurricular-section">
+            <div class="video-container">
+                <video controls>
+                    <source src="./videos/rebana.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+            <div class="content">
+                <h2 class="section-title">Video Ekstrakurikuler Rebana</h2>
+                <p class="section-description">
+                    Ekstrakurikuler Rebana SDN Bulustalan merupakan wadah bagi siswa untuk mengenal dan melestarikan seni musik Islami.
+                    Melalui latihan rutin, siswa belajar memainkan alat musik rebana, mengembangkan keterampilan vokal, serta memahami irama shalawat dengan harmonis.
+                    Selain mengasah bakat seni, kegiatan ini juga menanamkan nilai kebersamaan, kepercayaan diri, dan cinta budaya Islami.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="school">
+                <div class="link-school">
+                    <div class="tautan">
+                        <p>Tautan</p>
+                    </div>
+                    <div class="data-link">
+                        <a href="https://dapo.kemdikbud.go.id/"> > DAPODIK</a>
+                        <p><a href="https://pip.kemdikbud.go.id/home_v1"> > PIP</a></p>
+                        <p><a href="https://belajar.id/"> > Belajar.id</a></p>
+                        <p><a href="https://nisn.data.kemdikbud.go.id/" > > NISN</a></p>
+                        <p><a href="https://www.kemdikbud.go.id/" > > Kemendibud</a></p>
+                        <p><a href="http://disdik.semarangkota.go.id/"> > Dinas Pendidikan</a></p>      
+                    </div>       
+                </div>
+                <div class="information-contact-school">
+                    <p>Kontak Sekolah</p>
+                    <div class="contact-school">
+                        <div class="phone-number">
+                            <p href="#" class="phone-number">(024) 3554947</p>
+                        </div>
+                        <div class="email-school">
+                            <p><a href="mailto:sdn.bulustalan@gmail.com">sdn.bulustalan@gmail.com </a></p>
+                        </div>
+                        <div class="time-operational-school">
+                            <p>Senin - Kamis : 07:30 - 15:55 WIB</p>
+                            <p>Jumat : 07:30 - 11:30 WIB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-navbar">
+            <figure class="footer-logo">
+                <img src="image/logo/logo_sd.png" alt="logo_sd">
+            </figure>
+            <nav class="footer-navigation">                    
+                <div class="footer-navigation-content">
+                    <a href="./index.html">Beranda</a>
+                    <a href="./index.html#about-us">Tentang Kami</a>
+                    <div class="footer-subnav">
+                        <button class="footer-subnavbtn">Kategori<img src="./image/icon/down.png"></button>
+                        <div class="footer-subnav-content">
+                            <a href="./index.html#school-activity">Kegiatan Sekolah</a>
+                            <a href="./index.html#school-achievment">Prestasi</a>
+                            <a href="./index.html#school-extracurricular">Ekstrakulikuler</a>
+                        </div>
+                    </div> 
+                    <a href="./staff.html">Pengajar</a>
+                    <a href="./information.html">Informasi</a>
+                    <a href="./asset-infrastructures.html">Asset</a>
+                </div>
+                <figure class="sosmed">
+                    <a href="https://www.youtube.com/@sdnbulustalan"><img src="./image/icon/youtube.svg" alt="youtube"></a>
+                    <a href="https://www.facebook.com/sdnbulustalan/"><img src="./image/icon/facebook.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/sdnbulustalan/"><img src="./image/icon/instagram.svg" alt="instagram"></a>
+                </figure>
+            </nav>            
+        </section>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("navbar").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("navbar").style.height = "0%";
+        }
+    </script> 
+</body>
+</html>
